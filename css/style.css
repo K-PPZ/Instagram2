@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    width: 55%;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#header, #footer {
+    border: solid black 2px;
+    padding: 1%;
+}
+
+#header {
+    display: flex;
+}
+
+#header img {
+    width: 10%;
+    height: 10%;
+    margin-right: 1%;
+}
+
+#header p {
+    margin-bottom: -5%;
+}
+
+#header div {
+    display: flex;
+    flex-direction: column;
+}
+
+#main img {
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    margin-top: -0.5%;
+}
+
+#footer img {
+    width: 5%;
+}
+
+#droite img {
+    display: inline-block;
+    width: 12%;
+    margin-top: -0.5%;
+    margin-left: 88%;
+}
+
+#likes {
+    display: flex;
+    margin-top: -20px;
+    float: right;
+}
+
+#likeAndImg {
+    display: flex;
+    flex-direction: column;
+}
