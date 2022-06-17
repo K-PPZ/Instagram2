@@ -29,6 +29,24 @@ const post = [
         name: "HAAAAA",
         img: "img/Logo_de_Gulli_Africa_(Chaîne_TV).jpg",
         number: "563 likes"
+    },
+
+    {
+        name: "E.T.",
+        img: "img/e.t.gif",
+        number: "63 likes"
+    },
+
+    {
+        name: "Le Gros",
+        img: "img/gros.png",
+        number: "HIII likes"
+    },
+
+    {
+        name: "MASTUUUUU",
+        img: "img/teteMastu.jpg",
+        number: "563 likes"
     }
 ];
 
@@ -43,7 +61,7 @@ const imgBookmark = "img/bookmark-solid.svg";
 
 
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 6; i++) {
     document.body.innerHTML +=
 `<article>
     <div id="header">
