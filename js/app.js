@@ -37,8 +37,9 @@ document.body.innerHTML=
                 <p>${likes}</p>
             </div>
         </div>
-            <div id="droite">
-                <img src="${imgBookmark}">
-            </div>
+
+        <div id="droite">
+            <img src="${imgBookmark}">
+        </div>
     </div>
 </article>`;
