@@ -1,29 +1,31 @@
-const pseudo = "Gerard";
+const pseudo = ["Gerard", "LolXD", "HAAAAA"];
 const sponso = "sponsored";
 const points = "...";
-const likes = "250,223 likes";
+const likes = ["250,223 likes", "12 likes", "563 likes"];
 
 const avatar = "img/User_Avatar_2.png";
-const imgInsta = "img/instagram.webp";
+const imgInsta = ["img/instagram.webp", "img/crapaud.jpg", "img/Logo_de_Gulli_Africa_(Chaîne_TV).jpg"];
 const imgHearth = "img/heart-solid.svg";
 const imgComment = "img/comment-solid.svg";
 const imgPlane = "img/paper-plane-solid.svg";
 const imgBookmark = "img/bookmark-solid.svg";
 
 
-document.body.innerHTML=
+
+for (let i = 0; i < 3; i++) {
+    document.body.innerHTML +=
 `<article>
     <div id="header">
         <img src="${avatar}">
         <div>
-            <p>${pseudo}</p>
+            <p>${pseudo[i]}</p>
             <p>${sponso}</p>
             <p>${points}</p>
         </div>
     </div>
 
     <div id="main">
-        <img src="${imgInsta}">
+        <img src="${imgInsta[i]}">
     </div>
     
     <div id="footer">
@@ -34,7 +36,7 @@ document.body.innerHTML=
                 <img src="${imgPlane}">
             </div>
             <div id="likes">
-                <p>${likes}</p>
+                <p>${likes[i]}</p>
             </div>
         </div>
 
@@ -43,3 +45,4 @@ document.body.innerHTML=
         </div>
     </div>
 </article>`;
+}

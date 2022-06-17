@@ -7,6 +7,11 @@ p {
     font-size: 1.2rem;
 }
 
+article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 #header, #footer {
     border: solid black 2px;
     padding: 1%;
