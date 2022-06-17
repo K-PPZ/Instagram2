@@ -10,6 +10,8 @@ p {
 article {
     margin-top: 10%;
     margin-bottom: 10%;
+    box-shadow: 0px 0px 15px 5px #000000;
+    border-radius: 15px;
 }
 
 #header, #footer {
@@ -19,6 +21,7 @@ article {
 
 #header {
     display: flex;
+    border-radius: 15px 15px 0 0;
 }
 
 #header img {
@@ -43,6 +46,7 @@ article {
 #footer {
     display: flex;
     margin-top: -0.5%;
+    border-radius: 0 0 15px 15px;
 }
 
 #footer img {
