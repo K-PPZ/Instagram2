@@ -1,10 +1,41 @@
-const pseudo = ["Gerard", "LolXD", "HAAAAA"];
+//const pseudo = ["Gerard", "LolXD", "HAAAAA"];
+//const sponso = "sponsored";
+//const points = "...";
+//const likes = ["250,223 likes", "12 likes", "563 likes"];
+//
+//const avatar = "img/User_Avatar_2.png";
+//const imgInsta = ["img/instagram.webp", "img/crapaud.jpg", "img/Logo_de_Gulli_Africa_(Chaîne_TV).jpg"];
+//const imgHearth = "img/heart-solid.svg";
+//const imgComment = "img/comment-solid.svg";
+//const imgPlane = "img/paper-plane-solid.svg";
+//const imgBookmark = "img/bookmark-solid.svg";
+
+
+const post = [
+    {
+        name: "Gerard",
+        img: "img/instagram.webp",
+        number: "250,223 likes" 
+    },
+
+    {
+        name: "LolXD", 
+        img: "img/crapaud.jpg",
+        number: "12 likes" 
+        
+    },
+
+    {
+        name: "HAAAAA",
+        img: "img/Logo_de_Gulli_Africa_(Chaîne_TV).jpg",
+        number: "563 likes"
+    }
+];
+
 const sponso = "sponsored";
 const points = "...";
-const likes = ["250,223 likes", "12 likes", "563 likes"];
 
 const avatar = "img/User_Avatar_2.png";
-const imgInsta = ["img/instagram.webp", "img/crapaud.jpg", "img/Logo_de_Gulli_Africa_(Chaîne_TV).jpg"];
 const imgHearth = "img/heart-solid.svg";
 const imgComment = "img/comment-solid.svg";
 const imgPlane = "img/paper-plane-solid.svg";
@@ -18,14 +49,14 @@ for (let i = 0; i < 3; i++) {
     <div id="header">
         <img src="${avatar}">
         <div>
-            <p>${pseudo[i]}</p>
+            <p>${post[i].name}</p>
             <p>${sponso}</p>
             <p>${points}</p>
         </div>
     </div>
 
     <div id="main">
-        <img src="${imgInsta[i]}">
+        <img src="${post[i].img}">
     </div>
     
     <div id="footer">
@@ -36,7 +67,7 @@ for (let i = 0; i < 3; i++) {
                 <img src="${imgPlane}">
             </div>
             <div id="likes">
-                <p>${likes[i]}</p>
+                <p>${post[i].number}</p>
             </div>
         </div>
 
